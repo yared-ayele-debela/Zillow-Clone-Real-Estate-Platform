@@ -13,7 +13,7 @@ class GeocodingService
 
     public function __construct()
     {
-        $this->apiKey = "AIzaSyA1-06v_tH69x9kqjR_-1oYFp29E98ZtWg";
+        $this->apiKey = "";
         // $this->apiKey = config('services.google_maps.api_key', env('GOOGLE_MAPS_API_KEY'));
 
     }
